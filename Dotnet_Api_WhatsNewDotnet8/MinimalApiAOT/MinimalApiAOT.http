@@ -1,0 +1,11 @@
+@MinimalApiAOT_HostAddress = http://localhost:5034
+
+GET {{MinimalApiAOT_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{MinimalApiAOT_HostAddress}}/todos/1
+Accept: application/json
+
+###
